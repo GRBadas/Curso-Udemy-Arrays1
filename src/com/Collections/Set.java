@@ -6,7 +6,7 @@ public class Set {
 
     public static void main(String [] args){
 
-        HashSet conjunto = new HashSet();
+        HashSet<Object> conjunto = new HashSet<>();
         conjunto.add(1.2);
         conjunto.add(true);
         conjunto.add(5);
@@ -21,7 +21,7 @@ public class Set {
         System.out.println("O tamanho é do conjunto é : " + conjunto.size());
         System.out.println(conjunto.contains(5)); // verificar 
 
-        HashSet nums = new HashSet();
+        HashSet<Integer> nums = new HashSet<>();
         nums.add(1);
         nums.add(2);
         nums.add(5);
