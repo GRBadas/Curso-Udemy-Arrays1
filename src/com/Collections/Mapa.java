@@ -1,6 +1,5 @@
 package com.Collections;
 
-import java.io.ObjectOutputStream.PutField;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -21,15 +20,15 @@ public class Mapa {
         System.out.println(catalogo.entrySet());
         catalogo.remove("00ad789");
 
-        //for (String chave : catalogo.keySet()) {
-        //    System.out.println(chave);
-        //    
-        //}
-//
-        //for (Integer valor : catalogo.values()) {
-        //    System.out.println(valor);
-        //    
-        //}
+        for (String chave : catalogo.keySet()) {
+            System.out.println(chave);
+            
+        }
+
+        for (Integer valor : catalogo.values()) {
+            System.out.println(valor);
+            
+        }
 
         for (Entry<String, Integer> map : catalogo.entrySet()) {
             System.out.print(map.getKey() + " ===> ");
