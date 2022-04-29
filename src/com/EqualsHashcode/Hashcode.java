@@ -19,6 +19,9 @@ public class Hashcode {
         System.out.println(u2.equals(u1));
 
         System.out.println(u2.equals(new Date()));
+
+    
+
     }
     
 }
