@@ -22,7 +22,7 @@ public class Calculator {
 
         do{
             System.out.println("Selecione a opção desejada");
-            System.out.printf(" 1) Adição \n 2) Subtração \n 3) Multiplicação \n 4) Divisão \n 5) Potência \n 6) Raíz quadrada \n 7) Logarítimo \n");
+            System.out.printf("1) Adição \n2) Subtração \n3) Multiplicação \n4) Divisão \n5) Potência \n6) Raíz quadrada \n7) Logarítimo \n --------------------------------------- \n");
             opt = input.nextInt();
         }while(!validOptions.contains(opt));
         
@@ -92,6 +92,7 @@ public class Calculator {
         Scanner input = new Scanner(System.in);
         String repeat = input.nextLine(); 
         if(repeat.equals("sim")){
+             System.out.println("----------------------------------------");
              return true;
         }else{
              return false;
